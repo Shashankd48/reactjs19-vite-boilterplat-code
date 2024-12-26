@@ -9,14 +9,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "prepare": "husky install",
-    "pre-commit": "npm run lint && npm run build && npm run format && npm run add",
     "format": "npx prettier --write .",
     "add": "git add ."
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run pre-commit"
-    }
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [

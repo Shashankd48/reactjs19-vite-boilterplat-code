@@ -41,6 +41,7 @@ const HomePage = () => {
             accusamus numquam ea.
           </p>
           <p>Hello there</p>
+          <p>New Message</p>
         </div>
 
         <MyCard />
