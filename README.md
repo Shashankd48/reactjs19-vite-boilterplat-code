@@ -23,7 +23,7 @@ Set up husky
 
 ```bash
   echo "npx lint-staged" > .husky/pre-commit
-  echo "npm run lint && npm run build" > .husky/pre-push
+  echo "npm run build" > .husky/pre-push
 ```
 
 Run development server
