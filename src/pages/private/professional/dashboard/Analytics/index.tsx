@@ -1,4 +1,4 @@
-import Page from '../../../components/Page';
+import Page from '../../../../../components/Page';
 
 const Analytics = () => {
   return <Page title="Analytics | App">Analytics</Page>;

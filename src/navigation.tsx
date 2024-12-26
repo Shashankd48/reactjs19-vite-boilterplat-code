@@ -1,19 +1,23 @@
 import { BrowserRouter, Route, Routes } from 'react-router';
 import RootLayout from './root-layout';
-import DashboardLayout from './pages/dashboard/layout';
+import DashboardLayout from './pages/private/system/dashboard/layout';
 import { lazy, Suspense } from 'react';
-import { Spinner } from '@nextui-org/react';
+import Loading from './components/Loading';
 
-const HomePage = lazy(() => import('./pages/HomePage'));
-const AboutPage = lazy(() => import('./pages/AboutPage'));
-const FormPage = lazy(() => import('./pages/FormPage'));
-const Dashboard = lazy(() => import('./pages/dashboard/Dashboard'));
-const Analytics = lazy(() => import('./pages/dashboard/Analytics'));
+const HomePage = lazy(() => import('./pages/public/others/HomePage'));
+const AboutPage = lazy(() => import('./pages/public/others/AboutPage'));
+const FormPage = lazy(() => import('./pages/public/others/FormPage'));
+const Dashboard = lazy(
+  () => import('./pages/private/system/dashboard/Dashboard')
+);
+const Analytics = lazy(
+  () => import('./pages/private/system/dashboard/Analytics')
+);
 
 const Navigation = () => {
   return (
     <BrowserRouter>
-      <Suspense fallback={<Spinner />}>
+      <Suspense fallback={<Loading />}>
         <Routes>
           <Route element={<RootLayout />}>
             <Route index element={<HomePage />} />

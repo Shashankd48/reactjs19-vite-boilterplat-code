@@ -1,7 +1,8 @@
 import { Button } from '@nextui-org/button';
 import { Input } from '@nextui-org/react';
-import Page from '../../components/Page';
+import Page from '../../../../components/Page';
 import MyCard from './MyCard';
+import Loading from '../../../../components/Loading';
 
 const HomePage = () => {
   return (
@@ -45,6 +46,7 @@ const HomePage = () => {
           <p>New message 2</p>
         </div>
 
+        <Loading />
         <MyCard />
       </div>
     </Page>
