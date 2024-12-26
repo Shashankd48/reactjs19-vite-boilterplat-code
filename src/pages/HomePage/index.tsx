@@ -40,6 +40,7 @@ const HomePage = () => {
             consequuntur ad et asperiores aspernatur eius deserunt, quaerat
             accusamus numquam ea.
           </p>
+          <p>Hello there</p>
         </div>
 
         <MyCard />
