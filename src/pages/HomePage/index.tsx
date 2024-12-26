@@ -42,6 +42,7 @@ const HomePage = () => {
           </p>
           <p>Hello there</p>
           <p>New Message</p>
+          <p>New message 2</p>
         </div>
 
         <MyCard />
