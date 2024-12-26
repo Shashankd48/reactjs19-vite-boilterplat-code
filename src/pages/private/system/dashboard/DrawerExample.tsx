@@ -8,11 +8,11 @@ import {
   useDisclosure,
 } from '@nextui-org/react';
 
-export default function Sidebar() {
+export default function DrawerExample() {
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
 
   return (
-    <>
+    <div>
       <Button onPress={onOpen}>Open Drawer</Button>
       <Drawer isOpen={isOpen} onOpenChange={onOpenChange}>
         <DrawerContent>
@@ -53,6 +53,6 @@ export default function Sidebar() {
           )}
         </DrawerContent>
       </Drawer>
-    </>
+    </div>
   );
 }

@@ -14,8 +14,12 @@ const links = [
     label: 'About',
   },
   {
-    to: '/dashboard',
-    label: 'Dashboard',
+    to: '/system/dashboard',
+    label: 'System',
+  },
+  {
+    to: '/professional/dashboard',
+    label: 'Professional',
   },
 ];
 
