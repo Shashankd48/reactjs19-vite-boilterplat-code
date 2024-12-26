@@ -1,12 +1,11 @@
 import { Button } from "@nextui-org/button";
 import { Input } from "@nextui-org/react";
+import Page from "../../components/Page";
 
 const HomePage = () => {
    return (
-      <>
-         <title>Home</title>
-         <meta name="description" content="Freecode camp blogs" />
-         <div className="flex gap-2 flex-col max-w-[500px]">
+      <Page title="Home page" description="Freecode camp blogs">
+         <div className="flex gap-2 flex-col max-w-[500px] HomePage">
             <h2>HomePage</h2>
 
             <Button variant="bordered" color="primary">
@@ -37,7 +36,7 @@ const HomePage = () => {
                </p>
             </div>
          </div>
-      </>
+      </Page>
    );
 };
 

@@ -1,5 +1,7 @@
+import Page from "../../../components/Page";
+
 const Analytics = () => {
-   return <div>Analytics</div>;
+   return <Page title="Analytics | App">Analytics</Page>;
 };
 
 export default Analytics;

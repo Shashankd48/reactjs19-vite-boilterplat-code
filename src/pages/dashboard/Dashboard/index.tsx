@@ -1,5 +1,7 @@
+import Page from "../../../components/Page";
+
 const Dashboard = () => {
-   return <div>Dashboard</div>;
+   return <Page title="Dashboard | App">Dashboard</Page>;
 };
 
 export default Dashboard;
