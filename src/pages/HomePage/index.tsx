@@ -28,7 +28,6 @@ const HomePage = () => {
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
             in, incidunt ad quae ratione similique voluptatum nostrum id porro
-            in, incidunt ad quae ratione similique voluptatum nostrum id porro
             officiis.
           </p>
           <p>
