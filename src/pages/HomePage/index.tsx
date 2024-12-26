@@ -35,6 +35,11 @@ const HomePage = () => {
             tenetur praesentium nisi expedita cum veritatis corrupti vel quam
             maxime exercitationem.
           </p>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore
+            consequuntur ad et asperiores aspernatur eius deserunt, quaerat
+            accusamus numquam ea.
+          </p>
         </div>
 
         <MyCard />
