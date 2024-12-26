@@ -5,12 +5,12 @@
  * @returns A Promise that resolves with the provided response.
  */
 export const mockAsyncFunction = <T>(
-   response: T,
-   delay: number
+  response: T,
+  delay: number
 ): Promise<T> => {
-   return new Promise((resolve) => {
-      setTimeout(() => {
-         resolve(response);
-      }, delay);
-   });
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve(response);
+    }, delay);
+  });
 };
