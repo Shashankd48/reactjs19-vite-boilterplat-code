@@ -4,7 +4,7 @@
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/Shashankd48/reactjs19-vite-boilterplat-code.git
 ```
 
 Go to the project directory
