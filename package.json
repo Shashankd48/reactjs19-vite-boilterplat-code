@@ -1,5 +1,5 @@
 {
-  "name": "reactjs19-vite-boilterplat-code",
+  "name": "reactjs19-vite-boilerplate-code",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,14 +8,14 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "prepare": "husky",
-    "pre-commit": "npm run build && echo 'Build successful.' || (echo 'Build failed.' && exit 1)",
+    "prepare": "husky install",
+    "pre-commit": "npm run lint && npm run build && npm run format && npm run add",
     "format": "npx prettier --write .",
     "add": "git add ."
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "npm run pre-commit"
     }
   },
   "lint-staged": {
