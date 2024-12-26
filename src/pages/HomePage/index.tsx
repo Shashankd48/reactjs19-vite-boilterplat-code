@@ -1,6 +1,7 @@
 import { Button } from '@nextui-org/button';
 import { Input } from '@nextui-org/react';
 import Page from '../../components/Page';
+import MyCard from './MyCard';
 
 const HomePage = () => {
   return (
@@ -35,6 +36,8 @@ const HomePage = () => {
             maxime exercitationem.
           </p>
         </div>
+
+        <MyCard />
       </div>
     </Page>
   );
